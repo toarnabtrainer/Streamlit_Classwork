@@ -24,8 +24,7 @@ st.write("This is written using st.write()")
 st.markdown("# This is a Markdown heading")
 st.markdown("[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)")
 st.markdown("This is a Markdown paragraph with **bold** and *italic* text")
-st.markdown("""
-        
+st.markdown("""        
 	1. Artificial Intelligence
 		1. Machine Learning
 		2. Deep Learning
