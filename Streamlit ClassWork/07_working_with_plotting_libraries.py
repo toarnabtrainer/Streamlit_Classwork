@@ -50,12 +50,10 @@ ax.set_ylabel('horsepower')
 ax.set_title('Scatter plot of mpg and horsepower')
 st.pyplot(fig)
 
-
 # Plotly Chart
 st.subheader("Plotly Chart")
 fig = px.scatter(df, x='mpg', y='horsepower', color='origin', hover_name='name')
 st.plotly_chart(fig)
-
 
 # Map
 st.subheader("Map")
